@@ -37,7 +37,7 @@ OUT OF OR I
 # cool nifty things, only use if you are debugging
 DEVMODE = True
 
-# Defines the morse code dictionary
+# Defines the morse code dictionary using phonetics
 # This is a dictionary which contains the english alphabet and their
 # morse code equivilants
 # it doesn't contain  much puncuation
@@ -51,14 +51,14 @@ CODE = {'A': 'Di dah', 'B': 'dah di di di', 'C': 'dah di dah di',
 		'P': 'di dah dah di', 'Q': 'dah dah di  dah', 'R': 'di dah di',
 		'S': 'di di di', 'T': 'dah', 'U': 'di di dah',
 		'V': 'di di di dah', 'W': 'di dah dah', 'X': 'dah di di dah',
-		'Y': '-.--', 'Z': '--..',
+		'Y': 'DAH DI DAH DAH', 'Z': 'dah dah di di',
 
 		'0': '-----', '1': '.----', '2': '..---',
 		'3': '...--', '4': '....-', '5': '.....',
 		'6': '-....', '7': '--...', '8': '---..',
 		'9': '----.', '.': '.-.-.-', ',': '--..--',
 		'Ä': '.-.-', 'Á': '.--.-', 'É': '..-..',
-		'Ü': '..--'
+		'Ü': '..--', ' ' : 'SPACE'
 		}
 
 # creates the code dictionary, but in reverse, morse code is equal to english letters
