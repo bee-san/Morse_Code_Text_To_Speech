@@ -1,4 +1,7 @@
-#Morse code translator
-Takes a normal english string, converts it to morse code and speaks it out.
-Uses OSX's say command
-only works on OSX
+# Morse Code Speaker
+
+## How it works
+Takes an English string inputted by the user, converts it to a phonetic morse code translation and uses OSX's Say command to speak it out
+
+## Requirements
+OSX
