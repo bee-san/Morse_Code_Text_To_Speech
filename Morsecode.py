@@ -35,7 +35,7 @@ OUT OF OR I
 
 # enable DEVMODE to get accurcate error reports and other
 # cool nifty things, only use if you are debugging
-DEVMODE = True
+DEVMODE = False
 
 # Defines the morse code dictionary using phonetics
 # This is a dictionary which contains the english alphabet and their
@@ -53,12 +53,12 @@ CODE = {'A': 'Di dah', 'B': 'dah di di di', 'C': 'dah di dah di',
 		'V': 'di di di dah', 'W': 'di dah dah', 'X': 'dah di di dah',
 		'Y': 'DAH DI DAH DAH', 'Z': 'dah dah di di',
 
-		'0': '-----', '1': '.----', '2': '..---',
-		'3': '...--', '4': '....-', '5': '.....',
-		'6': '-....', '7': '--...', '8': '---..',
-		'9': '----.', '.': '.-.-.-', ',': '--..--',
-		'Ä': '.-.-', 'Á': '.--.-', 'É': '..-..',
-		'Ü': '..--', ' ' : 'SPACE'
+		'0': 'dah dah dah dah dah', '1': 'di dah dah dah dah', '2': 'di di dah dah dah',
+		'3': 'di di di dah dah', '4': 'di di di di dah', '5': 'di di di di di',
+		'6': 'dah di di di di', '7': 'dah dah di di di', '8': 'dah dah dah di di',
+		'9': 'dah dah dah dah di', '.': 'di dah di dah di dah', ',': 'dah dah di di dah dah',
+		'Ä': 'di dah di dah', 'Á': 'di dah dah di dah', 'É': 'di di dah di di',
+		'Ü': 'di di dah dah', ' ' : 'SPACE'
 		}
 
 # creates the code dictionary, but in reverse, morse code is equal to english letters

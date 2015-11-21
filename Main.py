@@ -3,6 +3,7 @@ import os
 import sys
 import time
 # imports the main modules used in this program
+# If you want to use this as a module, use MorseConvertAndTTS()
 
 def main():
 	message = input("Enter message to convert here: ")
@@ -14,7 +15,7 @@ def main():
 
 def MorseConvertAndTTS(message):
 	# cretes a function so this can be imported
-	message = Morsecode.to_morse(message)
+	message = morseconvert(message)
 	SpeakMorse(message)
 	close()
 
